@@ -21,14 +21,23 @@
     8. sudo gpasswd -a jenkins docker
     9. chmod 777 /var/run/docker.sock
 
-
  2. Now browse http://localhost:4000. 
- 3. For first time, you will have to setup jenkins server. Refer https://www.jenkins.io/doc/book/installing/docker/ (for setup)
- 4. Once Jenkins server is setup, create Jenkinspipeline job. Add gitlab/github credentials from where you would like to pull the source code 
- 5. Finally build the pipeline and see the results.
+ 
+  
+ 4. For first time, you will have to setup jenkins server. Refer https://www.jenkins.io/doc/book/installing/docker/ (for setup)
+ 5. Once Jenkins server is setup, create Jenkinspipeline job. Add gitlab/github credentials from where you would like to pull the source code 
+     ![Pipeline setting](fig2.png)
+     
+     ![gitlab settings](fig3.png)
+     
+     ![gitlab settings-2](fig4.png)
+     
+     
+     
+     
+ 7. Finally build the pipeline and see the results.
  
  ![Result](fig1.png)
-Format: ![Alt Text](url)
  
 
 
